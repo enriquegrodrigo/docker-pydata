@@ -1,3 +1,5 @@
+[![Docker Automated buil](https://img.shields.io/docker/automated/enriquegrodrigo/docker-pydata.svg)](https://hub.docker.com/r/enriquegrodrigo/docker-pydata/)
+[![Docker Build Statu](https://img.shields.io/docker/build/enriquegrodrigo/docker-pydata.svg)](https://hub.docker.com/r/enriquegrodrigo/docker-pydata/)
 # docker-pydata
 
 This is a base base image for mantaining python data science consistency between 
