@@ -24,4 +24,15 @@ docker build -t="Name of the image"
 If you want to add more requirements, you can use a `requirements.txt` file in the 
 same folder as the `Dockerfile` and they will be added to the image. 
 
+## Usage
+
+For accessing the folder through Jupyter Notebook:
+
+	docker run --rm -it -v $(pwd)/:/home/work/project -p 8888:8888 enriquegrodrigo/docker-pydata
+
+For executing a python application:
+
+	docker run --rm -it -v $(pwd)/:/home/work/project -p 8888:8888 enriquegrodrigo/docker-pydata python app.py
+
+
 
